@@ -83,8 +83,8 @@ function App() {
   return (
     <div className="content">
       <div className="headerLine">
-        <h1>Pokemon Memory Game</h1>
-        <div>
+        <h2>Pokemon Memory Game</h2>
+        <div className = "score-box">
           <div className="score">Score: {score}</div>
           <div className="best-score">Best Score: {bestScore}</div>
         </div>
